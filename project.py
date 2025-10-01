@@ -12,5 +12,6 @@ def timer(hour,minute,second):
         second=sec%60
         minute=(sec%3600)//60
     print(f"{hour:02d}:{minute:02d}:{second:02d}")
+    print("Time is up")
 
 timer(hour,minute,second)
