@@ -8,7 +8,7 @@ def for_input():
             if h < 0 or m < 0 or s < 0:
                 raise  ValueError
         except ValueError:
-            print("Invalid input: all parts must be numbers.")
+            print("Invalid input: all 3 parts must be numbers.")
         else:
             break
     return h,m,s
@@ -28,3 +28,4 @@ def timer(h,m,s):
     print("Time is up")
 h,m,s=for_input()
 timer(h,m,s)
+
