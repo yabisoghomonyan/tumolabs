@@ -1,0 +1,23 @@
+Simple Countdown Timer (Console-Based)
+
+This is a basic console countdown timer written in **Python**. The program allows users to input a time in `hours:minutes:seconds` format and then counts down to zero, displaying the remaining time every second.
+
+Features
+
+- Accepts input in `h:m:s` format (e.g., `0:1:30`)
+- Validates that input values are:
+  - In correct format
+  - Non-negative integers
+- Displays the timer in `HH:MM:SS` format
+- Pauses for one second using `time.sleep(1)` to simulate real-time countdown
+- Displays `"Time is up"` message when the countdown ends
+
+How to Run the Code
+
+1. Make sure you have **Python 3** installed.
+2. Copy the code into a file named `timer.py` (or any name you like).
+3. Open a terminal or command prompt in the same folder.
+4. Run the program:
+
+```bash
+python3 timer.py
