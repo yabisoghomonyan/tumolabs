@@ -1,0 +1,15 @@
+# Dice Game (Craps Simulation)
+
+This is a simple Python program that simulates a game of **Craps**, a popular dice game.
+
+##How It Works
+
+1. The program rolls two dice.
+2. If the sum is **7** or **11**, you win immediately.  
+3. If the sum is **2**, **3**, or **12**, you lose immediately.  
+4. Otherwise, that number becomes your **goal**.
+5. The program keeps rolling until:
+   - You roll your **goal number again** → You win 
+   - You roll a **7** → You lose 
+
+## Game Logic Example
