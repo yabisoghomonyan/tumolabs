@@ -1,1 +1,37 @@
+##Random Mad Libs Generator
 
+A fun and interactive Python program that generates random Mad Libs stories!
+Each time you run the program, it selects one of three story templates at random and asks you to fill in the blanks with creative words — resulting in a unique and often hilarious story every time.
+
+##Features
+
+#Random Story Selection – The program picks one of three stories at random.
+
+#Interactive Prompts – You’re asked to enter words like nouns, verbs, adjectives, and silly words.
+
+#Funny Results – Every set of words creates a brand-new, funny story.
+
+#Replayable – Run it again for a totally different result.
+
+#Story Options
+
+Hospital Adventure – A goofy story about a day in a strange hospital.
+
+Camping Trip – A weekend of camping full of surprises and silly moments.
+
+Magical Letter – A letter from a fantasy world filled with magical creatures.
+
+##How to Run
+
+#Download or clone this repository.
+
+#Open the folder in your terminal or code editor.
+
+#Run the program with:
+
+python madlibs.py
+
+
+#Follow the prompts and enter the words requested.
+
+#Watch your personalized story appear on the screen!
