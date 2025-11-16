@@ -75,7 +75,7 @@ while True:
                         At night we will tell {Number3} {Silly_Word} stories and roast {Noun2} around the campfire!! ''')
             break
         except ValueError as e:
-            print(f"Invalid input: all parts must be filled.{e}")
+            print(f"Invalid input: {e}")
     else:
         try:
             Proper_Noun = input("Enter the proper noun (person's name): ")
