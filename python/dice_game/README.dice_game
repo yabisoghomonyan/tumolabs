@@ -1,0 +1,31 @@
+##Dice Game (Craps Simulator)
+
+A simple Python dice game that simulates the basic rules of Craps.
+Roll two dice, and try to win by getting the right sum!
+##How to Play
+
+The game rolls two dice automatically.
+
+If the sum of the dice is 7 or 11 on the first roll, you win immediately.
+
+If the sum is 2, 3, or 12, you lose immediately.
+
+Any other sum becomes your goal number.
+
+Keep rolling the dice until:
+
+You roll the goal number again → You win
+
+You roll a 7 → You lose
+
+##How to Run
+
+#Download or copy the script dice_game.py.
+
+#Open a terminal or command prompt in the folder where the script is saved.
+
+#Run the program:
+
+python dice_game.py
+
+Watch the dice roll and see if you win or lose!
