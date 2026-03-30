@@ -1,0 +1,21 @@
+PROJECT STRUCTURE
+1. The csv is not uploaded to GitHub. I had to find and download it to make the project run.
+The README file says to ensure logatta.csv is in the project directory, but has no instructions on how to get that file.
+It would be helpful to either upload the dataset to the repository or include clear instructions on how to access it.
+
+2. The GitHub repository includes different projects for different study paths (Python, ML).
+I think it's a good practice to separate these into different repositories to improve organization and maintainability.
+
+3. The README file is provided as a .txt file.
+It would be more appropriate to use a Markdown format (README.md) to improve readability and allow for better structuring (headings, links, formatting, etc.).
+
+CODE
+1. stats is imported but never used in the project (from scipy import stats).
+It is better to remove the unnecessary imports to have cleaner code.
+
+2. The project uses OrdinalEncoder for preprocessing and it is backed up by the project steps we were provided,
+however OrdinalEncoder is used when the categorical columns are naturally ordered which I don't believe is the case with these columns.
+That said, it is good practice to justify preprocessing choices, and provide reasoning for the selected encoding methods to strengthen the project.
+
+3. It would be beneficial to include comments or brief explanations directly alongside visualizations and outputs.
+Currently, all the explanations are placed in the README, but adding context within the notebook itself would improve clarity and make the analysis easier to follow.
